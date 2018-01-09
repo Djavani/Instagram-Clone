@@ -14,7 +14,7 @@ import { Component, OnInit, trigger, state, style, transition, animate } from '@
         opacity: 1
       })),
       transition('escondido <=> visivel', animate('1s ease-in'))
-      //transition('visivel => escondido', animate('2s ease-in')) // <=> indica que é vive-versa a direcao dsa animacao
+      //transition('visivel => escondido',  animate('2s ease-in')) // <=> indica que é vive-versa a direcao dsa animacao
     ])
   ]
 })
